@@ -10,7 +10,7 @@ from langchain.text_splitter import CharacterTextSplitter
 import matplotlib.pyplot as plt
 
 # Set API key from environment
-genai.configure(api_key="AIzaSyBEayIJuF0HVrqvZ-W5t6VDdHinlnhy_Nk")
+genai.configure(api_key="")
 
 # Set app title
 st.set_page_config(page_title="📊 RAG AI Assistant with Gemini")
